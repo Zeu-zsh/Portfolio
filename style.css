@@ -847,5 +847,7 @@ main.second-main section:last-child {
   button.choose-reverse {
     top: 0;
   }
-
+  .display-choose {
+    height: 80%;
+  }
 }
