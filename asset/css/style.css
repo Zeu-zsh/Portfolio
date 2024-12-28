@@ -485,7 +485,6 @@ button.loader:hover {
 .container-switch {
   display: flex;
   align-items: center;
-  height: 100vh;
   margin-left: 1rem;
 }
 
@@ -823,4 +822,30 @@ main.second-main section:last-child {
 
 .button-action {
   border: none;
+}
+
+@media screen and (max-width: 795px) {
+  .blur-theme {
+    flex-direction: column;
+    text-align: center;
+  }
+  .choosed-changer button {
+    top: 85%;
+    left: 35%;
+    width: 30%;
+    height: 8%;
+  }  
+  button.loader {
+    left: 25%;
+    top: 75%;
+    width: 50%;
+    height: 15%;
+  }
+  .choosed-changer {
+    border-radius: 10px 10px 0 0;
+  }
+  button.choose-reverse {
+    top: 0;
+  }
+
 }
